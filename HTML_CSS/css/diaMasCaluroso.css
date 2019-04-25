@@ -1,0 +1,69 @@
+html{
+	font-family: sans-serif;
+	background-image: url("../images/freg.jpg");
+}
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#header {
+	margin:0 auto;
+	width:500px;
+	font-family:sans-serif;
+}
+
+ul, ol {
+	list-style:none;
+}
+
+.nav > li {
+	float:left;
+}
+
+.nav li a {
+	background-color:#000;
+	color:#fff;
+	text-decoration:none;
+	padding:13px 20px;
+	display:block;
+}
+
+.nav li a:hover {
+	background-color:green;
+}
+
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:250px;
+}
+
+.nav li:hover > ul {
+	display:block;
+}
+
+
+
+table {
+   width: 100%;
+   text-align: center;
+   user-select: none;
+
+}
+td {
+   text-align: center;
+}
+th {
+width: 12%;
+
+}
+
+.tabla1{
+	background-color: #FADBB3;
+}
+
+.tabla2{
+	background-color: #B3FAF1;
+}

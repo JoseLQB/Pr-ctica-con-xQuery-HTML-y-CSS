@@ -1,0 +1,174 @@
+html{font-family: sans-serif;
+	background-image: url("../images/freg.jpg");
+
+}
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#header {
+	margin:0 auto;
+	width:500px;
+	font-family:sans-serif;
+}
+
+ul, ol {
+	list-style:none;
+}
+
+.nav > li {
+	float:left;
+}
+
+.nav li a {
+	background-color:#000;
+	color:#fff;
+	text-decoration:none;
+	padding:13px 20px;
+	display:block;
+}
+
+.nav li a:hover {
+	background-color:green;
+}
+
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:250px;
+}
+
+.nav li:hover > ul {
+	display:block;
+}
+
+
+
+table {
+   user-select: none;
+   width: 100%;
+   text-align: center;
+   background-color: #F9FADA;
+}
+
+td {
+   text-align: center;
+}
+th {
+width: 12%;
+
+}
+
+.maxf{
+	background: #C1FF33;
+
+	color: green;
+}
+
+.maxf:hover{
+	background: green;
+
+	color: #C1FF33;
+}
+
+
+.maxhd{
+	background: #FFDADA;
+
+	color: red;
+}
+
+.maxhd:hover{
+	background: red;
+
+	color: #FFDADA;
+}
+
+
+
+
+.maxt{
+	background: #DAFDFF;
+
+	color: blue;
+}
+
+.maxt:hover{
+	background: blue;
+
+	color: #DAFDFF;
+}
+
+
+
+
+.maxtxt{
+	background: #FDFCE9;
+
+	color: orange;
+}
+
+.maxtxt:hover{
+	background: orange;
+
+	color: #FDFCE9;
+}
+
+
+
+
+.maxh{
+	background: #F6E9FD;
+
+	color: #5B008C;
+}
+
+.maxh:hover{
+	background: #5B008C;
+
+	color: #F6E9FD;
+}
+
+
+
+
+.maxp{
+	background: #C1FF44;
+
+	color: green;
+}
+
+.maxp:hover{
+	background: green;
+
+	color: #C1FF44;
+}
+
+
+
+.maxv{
+	background: black;
+
+	color: white;
+}
+
+.maxv:hover{
+	background: white;
+
+	color: black;
+}
+
+.maxdv{
+	background: cyan;
+
+	color: violet;
+}
+
+.maxdv:hover{
+	background: violet;
+
+	color: cyan;
+}
+
